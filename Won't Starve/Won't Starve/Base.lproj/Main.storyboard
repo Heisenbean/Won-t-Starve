@@ -100,8 +100,9 @@
                                                             <color key="textColor" red="0.6705882352941176" green="0.37254901960784315" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly0-5S-VvP">
-                                                            <rect key="frame" x="191" y="1" width="9" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ly0-5S-VvP">
+                                                            <rect key="frame" x="191" y="1" width="17" height="17"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -114,15 +115,13 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="4hs-My-cS6" firstAttribute="centerY" secondItem="iTz-4i-CFP" secondAttribute="centerY" id="93E-7x-WnY"/>
                                                         <constraint firstItem="0fE-pj-cEJ" firstAttribute="centerY" secondItem="iTz-4i-CFP" secondAttribute="centerY" id="KQb-zt-or0"/>
-                                                        <constraint firstItem="4hs-My-cS6" firstAttribute="centerY" secondItem="ly0-5S-VvP" secondAttribute="centerY" id="RVg-t3-fUk"/>
                                                         <constraint firstAttribute="height" constant="20" id="dto-Kf-M8R"/>
                                                         <constraint firstItem="0fE-pj-cEJ" firstAttribute="centerX" secondItem="iTz-4i-CFP" secondAttribute="centerX" id="duE-ka-aae"/>
                                                         <constraint firstItem="bi7-aA-Jny" firstAttribute="leading" secondItem="iTz-4i-CFP" secondAttribute="leading" constant="1" id="hfV-jB-YG7"/>
                                                         <constraint firstItem="bi7-aA-Jny" firstAttribute="centerY" secondItem="iTz-4i-CFP" secondAttribute="centerY" id="mKa-Jb-jfq"/>
-                                                        <constraint firstItem="4hs-My-cS6" firstAttribute="leading" secondItem="ly0-5S-VvP" secondAttribute="trailing" constant="43" id="q0W-JI-0GN"/>
                                                         <constraint firstAttribute="trailing" secondItem="4hs-My-cS6" secondAttribute="trailing" constant="14" id="tIW-hi-rb9"/>
-                                                        <constraint firstItem="ly0-5S-VvP" firstAttribute="centerY" secondItem="0fE-pj-cEJ" secondAttribute="centerY" id="z9R-Wh-xJr"/>
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5G-Ou-pCE" userLabel="line">
