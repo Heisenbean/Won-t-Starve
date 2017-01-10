@@ -38,6 +38,8 @@ extension MenuViewController: UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let detailVc = UIStoryboard.init(name: "MenuDetail", bundle: nil).instantiateInitialViewController() as! MenuDetalViewController
+        navigationController?.pushViewController(detailVc, animated: true)
     }
     
 }

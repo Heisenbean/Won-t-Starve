@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7Hd-2C-Kd8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu Detal View Controller-->
+        <scene sceneID="r9T-Va-dkb">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="7Hd-2C-Kd8" customClass="MenuDetalViewController" customModule="Won_t_Starve" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eLk-el-ofB"/>
+                        <viewControllerLayoutGuide type="bottom" id="JUJ-6R-1tl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lar-5g-eyK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="RTy-WV-hQD">
+                                <rect key="frame" x="10" y="84" width="200" height="230"/>
+                                <string key="text">波兰饺子是以烹饪锅制成的肉类食物物品，烹饪它需要1个肉类，1个高脚鸟蛋或者蛋， 和1个蔬菜，它需要20秒来烹饪。
+加入2个怪兽肉会​​做出怪物千层派，放入树枝会导致做出肉串。
+
+波兰饺子具有烹饪食物中除了粉蛋糕外、和培根蛋同样拥有最长的保质期（20天）和肉食中除去鹿角怪眼球最高的回复量（可回复40生命值），这使得使用薇格弗德的玩家可以将波兰饺子作为重要的回血手段之一。同时利用鸟笼能够将大量怪兽肉转化成蛋的能力，可以快速消耗所得到的怪兽肉。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2wJ-aa-YXH">
+                                <rect key="frame" x="214" y="84" width="151" height="224"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2u-d0-j3S">
+                                        <rect key="frame" x="2" y="2" width="147" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trW-kg-GMl">
+                                                <rect key="frame" x="54" y="4" width="38" height="17"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.8784313725490196" green="0.72156862745098038" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="trW-kg-GMl" firstAttribute="centerX" secondItem="L2u-d0-j3S" secondAttribute="centerX" id="MXX-Un-nmA"/>
+                                            <constraint firstAttribute="height" constant="25" id="dNn-Sf-xAE"/>
+                                            <constraint firstItem="trW-kg-GMl" firstAttribute="centerY" secondItem="L2u-d0-j3S" secondAttribute="centerY" id="mHD-w1-h0x"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pierogi" translatesAutoresizingMaskIntoConstraints="NO" id="Q1Y-Nz-fdy">
+                                        <rect key="frame" x="48" y="29" width="54" height="54"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="54" id="SX4-0r-JZ4"/>
+                                            <constraint firstAttribute="width" constant="54" id="fsv-eE-zwY"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HealthMeter" translatesAutoresizingMaskIntoConstraints="NO" id="zMm-3K-xvt">
+                                        <rect key="frame" x="15" y="87" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="GUb-du-frn"/>
+                                            <constraint firstAttribute="height" constant="24" id="xhp-5l-PW2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hunger" translatesAutoresizingMaskIntoConstraints="NO" id="KrL-e5-pPo">
+                                        <rect key="frame" x="15" y="115" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="O9R-Yi-UcU"/>
+                                            <constraint firstAttribute="width" constant="24" id="qkr-KA-Tbt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sanity" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-bM-kWA">
+                                        <rect key="frame" x="15" y="143" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="9en-FJ-Gib"/>
+                                            <constraint firstAttribute="height" constant="24" id="gam-5B-l7V"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Crock_Pot" translatesAutoresizingMaskIntoConstraints="NO" id="fot-JC-zEa">
+                                        <rect key="frame" x="15" y="171" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="7DR-AF-8ju"/>
+                                            <constraint firstAttribute="height" constant="24" id="SZE-Ds-px3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rot" translatesAutoresizingMaskIntoConstraints="NO" id="7LQ-tP-Gxa">
+                                        <rect key="frame" x="15" y="199" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="A15-nb-fpb"/>
+                                            <constraint firstAttribute="height" constant="24" id="DPb-be-au2"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="KrL-e5-pPo" firstAttribute="centerX" secondItem="zMm-3K-xvt" secondAttribute="centerX" id="6ZS-7a-cAH"/>
+                                    <constraint firstItem="Zav-bM-kWA" firstAttribute="centerX" secondItem="KrL-e5-pPo" secondAttribute="centerX" id="9E7-RF-8BY"/>
+                                    <constraint firstItem="L2u-d0-j3S" firstAttribute="top" secondItem="2wJ-aa-YXH" secondAttribute="top" constant="2" id="EqB-is-WNp"/>
+                                    <constraint firstAttribute="height" constant="224" id="Ntb-kF-osu"/>
+                                    <constraint firstItem="7LQ-tP-Gxa" firstAttribute="top" secondItem="fot-JC-zEa" secondAttribute="bottom" constant="4" id="OaP-Cz-mNM"/>
+                                    <constraint firstAttribute="trailing" secondItem="L2u-d0-j3S" secondAttribute="trailing" constant="2" id="SdH-ng-epa"/>
+                                    <constraint firstItem="7LQ-tP-Gxa" firstAttribute="centerX" secondItem="fot-JC-zEa" secondAttribute="centerX" id="UIZ-us-Qzs"/>
+                                    <constraint firstItem="L2u-d0-j3S" firstAttribute="leading" secondItem="2wJ-aa-YXH" secondAttribute="leading" constant="2" id="Vg7-Vt-3Xw"/>
+                                    <constraint firstItem="Zav-bM-kWA" firstAttribute="top" secondItem="KrL-e5-pPo" secondAttribute="bottom" constant="4" id="XMN-Uw-X2n"/>
+                                    <constraint firstItem="Q1Y-Nz-fdy" firstAttribute="top" secondItem="L2u-d0-j3S" secondAttribute="bottom" constant="2" id="XWk-yf-Woe"/>
+                                    <constraint firstItem="KrL-e5-pPo" firstAttribute="top" secondItem="zMm-3K-xvt" secondAttribute="bottom" constant="4" id="aJd-yb-SRH"/>
+                                    <constraint firstItem="fot-JC-zEa" firstAttribute="top" secondItem="Zav-bM-kWA" secondAttribute="bottom" constant="4" id="dO9-6Q-M7P"/>
+                                    <constraint firstItem="Q1Y-Nz-fdy" firstAttribute="centerX" secondItem="L2u-d0-j3S" secondAttribute="centerX" id="kjM-mB-VX8"/>
+                                    <constraint firstItem="zMm-3K-xvt" firstAttribute="top" secondItem="Q1Y-Nz-fdy" secondAttribute="bottom" constant="4" id="uXy-aK-Zuz"/>
+                                    <constraint firstItem="fot-JC-zEa" firstAttribute="centerX" secondItem="Zav-bM-kWA" secondAttribute="centerX" id="y7g-OH-qdR"/>
+                                    <constraint firstItem="Q1Y-Nz-fdy" firstAttribute="leading" secondItem="zMm-3K-xvt" secondAttribute="trailing" constant="9" id="yAZ-lW-xu7"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.84705882349999995" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2wJ-aa-YXH" firstAttribute="top" secondItem="RTy-WV-hQD" secondAttribute="top" id="2Q6-ot-Zbg"/>
+                            <constraint firstItem="RTy-WV-hQD" firstAttribute="leading" secondItem="lar-5g-eyK" secondAttribute="leading" constant="10" id="Rtf-ok-3UL"/>
+                            <constraint firstItem="RTy-WV-hQD" firstAttribute="top" secondItem="lar-5g-eyK" secondAttribute="top" constant="84" id="n0y-rE-WlX"/>
+                            <constraint firstItem="2wJ-aa-YXH" firstAttribute="leading" secondItem="RTy-WV-hQD" secondAttribute="trailing" constant="4" id="x4J-Qu-3Zt"/>
+                            <constraint firstAttribute="trailing" secondItem="2wJ-aa-YXH" secondAttribute="trailing" constant="10" id="xSc-jr-lqi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detaliLabel" destination="RTy-WV-hQD" id="e6F-zy-JrP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9n-I1-nJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="608.79999999999995" y="268.51574212893553"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Crock_Pot" width="64" height="64"/>
+        <image name="HealthMeter" width="78" height="81"/>
+        <image name="Hunger" width="78" height="81"/>
+        <image name="Pierogi" width="64" height="64"/>
+        <image name="Rot" width="64" height="64"/>
+        <image name="Sanity" width="78" height="81"/>
+    </resources>
+</document>
