@@ -21,6 +21,18 @@
 		<string>曼德拉草x1</string>
 		<key>limit</key>
 		<string>无</string>
+		<key>desc</key>
+		<string>曼德拉草汤是一种蔬菜类食物，由在烹饪锅中加入至少 1 个生的曼德拉草烹饪而成，需要 60 秒才能完成。
+
+加入 2 个生的鸡腿和 1 个任何的肉类有机会会变成火鸡大餐，加入 1 个鳗鱼和 1 个菌藻后会得到鳗鱼寿司，加入 2 个以上的怪物肉则有机会变成怪物千层派。
+
+曼德拉草不会烹煮或吃下时让玩家睡着，但拥有很短的保存期限，这跟生 / 熟的曼德拉草（无保存期限）不同。做成曼德拉草汤而不是烤曼德拉草的唯一好处就是不会使玩家在烹煮过程中睡着</string>
+		<key>example</key>
+		<array>
+			<string>Mandrake,Twigs,Twigs,Twigs</string>
+			<string>Mandrake,Morsels,Mushrooms02,Honey</string>
+			<string>Mandrake,Ice,Ice,Ice</string>
+		</array>
 	</dict>
 	<dict>
 		<key>name</key>

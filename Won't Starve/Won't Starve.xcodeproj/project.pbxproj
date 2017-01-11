@@ -69,12 +69,12 @@
 				35C737F01E1E2344002EFECC /* Main.storyboard */,
 				35C737FE1E1FF7AC002EFECC /* MenuViewController.swift */,
 				3598A22D1E24E7B70002F909 /* MenuDetalViewController.swift */,
+				3598A22F1E24EC480002F909 /* MenuDetail.storyboard */,
 				351F6C5C1E209ED800E9CC58 /* MenuCell.swift */,
 				35C737F31E1E2344002EFECC /* Assets.xcassets */,
 				35C737F51E1E2344002EFECC /* LaunchScreen.storyboard */,
 				35C737F81E1E2344002EFECC /* Info.plist */,
 				351F6C5A1E208ED000E9CC58 /* Menu.plist */,
-				3598A22F1E24EC480002F909 /* MenuDetail.storyboard */,
 			);
 			path = "Won't Starve";
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 				TargetAttributes = {
 					35C737E81E1E2344002EFECC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 93XLJEFUZ5;
+						DevelopmentTeam = EG5JP78VYT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -281,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93XLJEFUZ5;
+				DEVELOPMENT_TEAM = EG5JP78VYT;
 				INFOPLIST_FILE = "Won't Starve/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.heisenbean.Won-t-Starve";
@@ -294,7 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 93XLJEFUZ5;
+				DEVELOPMENT_TEAM = EG5JP78VYT;
 				INFOPLIST_FILE = "Won't Starve/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.heisenbean.Won-t-Starve";
