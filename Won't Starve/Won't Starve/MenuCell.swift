@@ -25,17 +25,17 @@ class MenuCell: UITableViewCell {
         // Initialization code
     }
     
-    var data = [String:String](){
+    var data = [String:AnyObject](){
         didSet{
-            icon.image = UIImage.init(named: data["icon"]!)
-            name.text = data["name"]
-            health.text = data["health"]
-            hungry.text = data["hungry"]
-            sanity.text = data["sanity"]
-            badTime.text = data["badTime"]
-            time.text = data["time"]
-            need.text = data["need"]
-            limit.text = data["limit"]
+            icon.image = UIImage.init(named: data["icon"]! as! String)
+            name.text = data["name"] as? String
+            health.text = data["health"] as? String
+            hungry.text = data["hungry"] as? String
+            sanity.text = data["sanity"] as? String
+            badTime.text = data["badTime"] as? String
+            time.text = data["time"] as? String
+            need.text = data["need"] as? String
+            limit.text = data["limit"] as? String
         }
     }
 

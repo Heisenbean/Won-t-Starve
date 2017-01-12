@@ -6,7 +6,7 @@
 		<key>name</key>
 		<string>曼德拉草汤</string>
 		<key>icon</key>
-		<string>Mandrake_Soup.png</string>
+		<string>Mandrake_Soup</string>
 		<key>health</key>
 		<string>+100</string>
 		<key>hungry</key>
@@ -26,19 +26,23 @@
 
 加入 2 个生的鸡腿和 1 个任何的肉类有机会会变成火鸡大餐，加入 1 个鳗鱼和 1 个菌藻后会得到鳗鱼寿司，加入 2 个以上的怪物肉则有机会变成怪物千层派。
 
-曼德拉草不会烹煮或吃下时让玩家睡着，但拥有很短的保存期限，这跟生 / 熟的曼德拉草（无保存期限）不同。做成曼德拉草汤而不是烤曼德拉草的唯一好处就是不会使玩家在烹煮过程中睡着</string>
+曼德拉草不会烹煮或吃下时让玩家睡着，但拥有很短的保存期限，这跟生 / 熟的曼德拉草（无保存期限）不同。做成曼德拉草汤而不是烤曼德拉草的唯一好处就是不会使玩家在烹煮过程中睡着。</string>
 		<key>example</key>
 		<array>
 			<string>Mandrake,Twigs,Twigs,Twigs</string>
 			<string>Mandrake,Morsels,Mushrooms02,Honey</string>
 			<string>Mandrake,Ice,Ice,Ice</string>
 		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>mandrakesoup</string>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>华夫饼</string>
 		<key>icon</key>
-		<string>Waffles.png</string>
+		<string>Waffles</string>
 		<key>health</key>
 		<string>+60</string>
 		<key>hungry</key>

@@ -14,11 +14,11 @@ class MenuViewController: UIViewController {
     // datas initial
     let path = Bundle.main.path(forResource: "Menu", ofType: "plist")
     
-    var datas =  [[String:String]]()
+    var datas =  [[String:AnyObject]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        datas = NSArray(contentsOfFile: path!) as! [[String:String]]
+        datas = NSArray(contentsOfFile: path!) as! [[String:AnyObject]]
         tableView.reloadData()
     }
     
@@ -39,6 +39,7 @@ extension MenuViewController: UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let detailVc = UIStoryboard.init(name: "MenuDetail", bundle: nil).instantiateInitialViewController() as! MenuDetalViewController
+        detailVc.datas = datas[indexPath.row]
         navigationController?.pushViewController(detailVc, animated: true)
     }
     

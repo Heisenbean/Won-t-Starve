@@ -10,11 +10,34 @@ import UIKit
 
 class MenuDetalViewController: UIViewController {
     @IBOutlet weak var detaliLabel: UILabel!
+    @IBOutlet weak var nameLabel:UILabel!
+    @IBOutlet weak var foodIcon: UIImageView!
+    @IBOutlet weak var healthNum: UILabel!
+    @IBOutlet weak var hungryNum: UILabel!
+    @IBOutlet weak var santiNum: UILabel!
+    @IBOutlet weak var timeNum: UILabel!
+    @IBOutlet weak var badTimeNum: UILabel!
+    @IBOutlet weak var limitNum: UILabel!
+    @IBOutlet weak var generateCode: UILabel!
 
+    var datas = [String:AnyObject]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        detaliLabel.preferredMaxLayoutWidth = UIScreen.main.bounds.size.width * 3 / 5.5
-        // Do any additional setup after loading the view.
+        detaliLabel.preferredMaxLayoutWidth = UIScreen.main.bounds.size.width * 0.5
+        configData()
+    }
+    
+    func configData() {
+        detaliLabel.text = datas["desc"] as? String
+        foodIcon.image = UIImage.init(named: (datas["icon"] as? String)!)
+        nameLabel.text = datas["name"] as? String
+        healthNum.text = datas["health"] as? String
+        hungryNum.text = datas["hungry"] as? String
+        santiNum.text = datas["sanity"] as? String
+        badTimeNum.text = datas["badTime"] as? String
+        limitNum.text = datas["max"] as? String
+        limitNum.text = datas["max"] as? String
+        generateCode.text  = "\("\"\(datas["code"] as! String)\"")"
     }
 
     override func didReceiveMemoryWarning() {
