@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		351F6C5B1E208ED100E9CC58 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 351F6C5A1E208ED000E9CC58 /* Menu.plist */; };
 		351F6C5D1E209ED800E9CC58 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351F6C5C1E209ED800E9CC58 /* MenuCell.swift */; };
+		35983F551E27488D00B2EBD3 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35983F541E27488D00B2EBD3 /* ExampleCell.swift */; };
 		3598A22E1E24E7B70002F909 /* MenuDetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3598A22D1E24E7B70002F909 /* MenuDetalViewController.swift */; };
 		3598A2301E24EC480002F909 /* MenuDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3598A22F1E24EC480002F909 /* MenuDetail.storyboard */; };
 		35C737ED1E1E2344002EFECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C737EC1E1E2344002EFECC /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		351F6C5A1E208ED000E9CC58 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
 		351F6C5C1E209ED800E9CC58 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		35983F541E27488D00B2EBD3 /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
 		3598A22D1E24E7B70002F909 /* MenuDetalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuDetalViewController.swift; sourceTree = "<group>"; };
 		3598A22F1E24EC480002F909 /* MenuDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MenuDetail.storyboard; sourceTree = "<group>"; };
 		35C737E91E1E2344002EFECC /* Won't Starve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Won't Starve.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 				3598A22D1E24E7B70002F909 /* MenuDetalViewController.swift */,
 				3598A22F1E24EC480002F909 /* MenuDetail.storyboard */,
 				351F6C5C1E209ED800E9CC58 /* MenuCell.swift */,
+				35983F541E27488D00B2EBD3 /* ExampleCell.swift */,
 				35C737F31E1E2344002EFECC /* Assets.xcassets */,
 				35C737F51E1E2344002EFECC /* LaunchScreen.storyboard */,
 				35C737F81E1E2344002EFECC /* Info.plist */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35983F551E27488D00B2EBD3 /* ExampleCell.swift in Sources */,
 				35C737EF1E1E2344002EFECC /* ViewController.swift in Sources */,
 				35C737FF1E1FF7AC002EFECC /* MenuViewController.swift in Sources */,
 				3598A22E1E24E7B70002F909 /* MenuDetalViewController.swift in Sources */,

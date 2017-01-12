@@ -32,6 +32,7 @@
 			<string>Mandrake,Twigs,Twigs,Twigs</string>
 			<string>Mandrake,Morsels,Mushrooms02,Honey</string>
 			<string>Mandrake,Ice,Ice,Ice</string>
+			<string>Mandrake,Drumstick,Drumstick,Drumstick</string>
 		</array>
 		<key>max</key>
 		<string>40</string>
@@ -40,7 +41,7 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>华夫饼</string>
+		<string>华夫饼(松饼)</string>
 		<key>icon</key>
 		<string>Waffles</string>
 		<key>health</key>
@@ -57,6 +58,21 @@
 		<string>黄油x1,蛋类x1,浆果x1</string>
 		<key>limit</key>
 		<string>无</string>
+		<key>desc</key>
+		<string>松饼是通过烹饪锅烹制得来的一种食物物品，所需材料为1块黄油、1个蛋、1浆果和1个填充物（例如：树枝、浆果、蜂蜜）。它能够恢复玩家的60生命、37.5饥饿和5理智，是游戏中恢复生命值第二多的食物。
+
+烹饪锅需要10秒来制作松饼。需要注意的是如果使用曼德拉草作为填充物的话可能会导致成品变成曼德拉草汤。在海难DLC中，添加龙虾或鱼翅会导致成品变成龙虾大餐和鱼翅羹。</string>
+		<key>example</key>
+		<array>
+			<string>Butter,Small_Eggs,Berry,Berry</string>
+			<string>Butter,Tallbird_Eggs,Berry,Honey</string>
+			<string>Butter,Tallbird_Eggs,Berry,Twigs</string>
+			<string>Butter,Tallbird_Eggs,Berry,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>waffles</string>
 	</dict>
 	<dict>
 		<key>name</key>

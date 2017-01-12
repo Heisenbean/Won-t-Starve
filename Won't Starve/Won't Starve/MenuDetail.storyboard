@@ -202,7 +202,7 @@
                                 <rect key="frame" x="0.0" y="391" width="375" height="276"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="78" id="Fsu-H0-Xcv">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="78" id="Fsu-H0-Xcv" customClass="ExampleCell" customModule="Won_t_Starve" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="78"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fsu-H0-Xcv" id="m1g-S2-nKA">
@@ -301,8 +301,19 @@
                                                 <constraint firstItem="fK9-gq-EUb" firstAttribute="bottom" secondItem="tvd-F0-DHr" secondAttribute="bottom" id="wN6-Zo-ZdT"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="material1" destination="w4J-XD-fVb" id="Ff0-hl-k7M"/>
+                                            <outlet property="material2" destination="P8N-Df-kUR" id="TBs-QI-8VG"/>
+                                            <outlet property="material3" destination="fK9-gq-EUb" id="yjn-WA-ghd"/>
+                                            <outlet property="material4" destination="l5J-cY-gWg" id="s1v-7i-1kh"/>
+                                            <outlet property="result" destination="3R0-BD-qMa" id="Sp6-cO-YCw"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="7Hd-2C-Kd8" id="BNM-kg-af2"/>
+                                    <outlet property="delegate" destination="7Hd-2C-Kd8" id="MzX-Gu-Hmv"/>
+                                </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🌰举个例子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALI-7I-gnk">
                                 <rect key="frame" x="10" y="364" width="93" height="21"/>
@@ -336,6 +347,7 @@
                         <outlet property="limitNum" destination="JCI-NR-Fsf" id="VUh-PJ-ze8"/>
                         <outlet property="nameLabel" destination="trW-kg-GMl" id="VmV-0X-uaO"/>
                         <outlet property="santiNum" destination="rEx-wf-yCW" id="kHA-EL-K0W"/>
+                        <outlet property="tableview" destination="j2t-7C-Eyi" id="JdE-bb-rQi"/>
                         <outlet property="timeNum" destination="9H4-PZ-sOS" id="Rq4-2P-sSU"/>
                     </connections>
                 </viewController>

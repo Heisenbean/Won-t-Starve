@@ -9,6 +9,8 @@
 import UIKit
 
 class MenuDetalViewController: UIViewController {
+    
+    // MARK: Properties
     @IBOutlet weak var detaliLabel: UILabel!
     @IBOutlet weak var nameLabel:UILabel!
     @IBOutlet weak var foodIcon: UIImageView!
@@ -20,7 +22,11 @@ class MenuDetalViewController: UIViewController {
     @IBOutlet weak var limitNum: UILabel!
     @IBOutlet weak var generateCode: UILabel!
 
+    @IBOutlet weak var tableview: UITableView!
+    
     var datas = [String:AnyObject]()
+    
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         detaliLabel.preferredMaxLayoutWidth = UIScreen.main.bounds.size.width * 0.5
@@ -37,7 +43,7 @@ class MenuDetalViewController: UIViewController {
         badTimeNum.text = datas["badTime"] as? String
         limitNum.text = datas["max"] as? String
         limitNum.text = datas["max"] as? String
-        generateCode.text  = "\("\"\(datas["code"] as! String)\"")"
+        generateCode.text = "\"" + (datas["code"] as! String) + "\""
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,15 +51,20 @@ class MenuDetalViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+extension MenuDetalViewController: UITableViewDataSource,UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let examples = datas["example"] as! [String]
+        return examples.count
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! ExampleCell
+        let examples = datas["example"] as! [String]
+        cell.datas = examples[indexPath.row]
+        cell.result.image = UIImage.init(named: (datas["icon"] as? String)!)
+        return cell
+    }
 }
