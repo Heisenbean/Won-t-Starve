@@ -204,6 +204,26 @@
 		<string>肉类x2,蜂蜜x1</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>蜂蜜火腿可以由肉在肉类系数大于等于2.0的情况下搭配蜂蜜在烹饪锅中可以烹煮来的肉类食物，需要40秒才能煮好。1个蜂蜜火腿可以就提供玩家角色30生命（相当于使用１个蜂蜜药膏）和饥饿值。
+
+在里面加超过1个怪物肉会变成怪物千层派、加入树枝会变成烤肉串（１个）或是失败料理（1个以上）、加入高脚鸟蛋则会变成培根蛋。
+
+在《海难》资料片中很多的鱼类食物也拥有肉类系数，像是热带鱼。此外小鱼肉和热带鱼等都可以晒干成小肉干，这让蜂蜜火腿的制作变得像对容易许多。但是如果鱼类系数超过 1 的话就有可能做成海鲜秋葵汤。</string>
+		<key>example</key>
+		<array>
+			<string>Normal_Meats,Monster_Meats,Honey,Honey</string>
+			<string>Monster_Meats,Morsels,Frog_Leg,Honey</string>
+			<string>Normal_Meats,Monster_Meats,Berry,Honey</string>
+			<string>Normal_Meats,Monster_Meats,Carrots,Honey</string>
+			<string>Morsels,Morsels,Monster_Meats,Honey</string>
+			<string>Normal_Meats,Monster_Meats,Ice,Honey</string>
+			<string>Normal_Meats,Fishes,Small_Jerky,Honey</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>honeyham</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -224,6 +244,22 @@
 		<string>鱼类x0.5,爆米花x1</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>鱼塔可是一种属于肉类的食物，由将1个玉米与至少0.5的鱼类放入烹饪锅中烹煮 10 秒后取得。
+
+加入1个树枝有一定的机会会变成鱼排，加入2个树枝则成品仍然是鱼塔可，加入曼德拉草则会变成曼德拉草汤。
+
+鱼塔可和鱼排可以回复的饱食度是一样的，但可回复的生命只有一半。</string>
+		<key>example</key>
+		<array>
+			<string>Fishes,Corns,Twigs,Twigs</string>
+			<string>Fishes,Corns,Morsels,Mushrooms02</string>
+			<string>Fishes,Corns,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>fishtacos</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -244,10 +280,23 @@
 		<string>蛙腿x1,蔬菜x0.5</string>
 		<key>limit</key>
 		<string>无</string>
+		<key>desc</key>
+		<string>蛙腿三明治是一种属于肉类的食物物品，由将至少 1 个青蛙腿与 1 个蔬菜放入烹饪锅中烹煮 40 秒后取得。
+在里面加超过 2 个怪物肉会变成怪物千层派，加入曼德拉草则会变成曼德拉草汤、加入树枝会变成烤肉串（ １ 个）或是蛙腿三明治（ 1 个以上）、加入蛋或蜂蜜会变成波兰饺子或是蜂蜜肉块。</string>
+		<key>example</key>
+		<array>
+			<string>Frog_Leg,Corns,Twigs,Twigs</string>
+			<string>Frog_Leg,Carrots,Berry,Berry</string>
+			<string>Frog_Leg,Vegetables,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>frogglebunwich</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>奶油松饼</string>
+		<string>黄油松饼</string>
 		<key>icon</key>
 		<string>Butter_Muffin</string>
 		<key>health</key>
@@ -264,6 +313,21 @@
 		<string>蝴蝶翅膀x1,蔬菜x0.5</string>
 		<key>limit</key>
 		<string>不能放肉类</string>
+		<key>desc</key>
+		<string>黄油松饼是一种蔬菜类食物，由在烹饪锅中加入至少 1 蝴蝶翅膀和 1 个蔬菜烹饪而成，需要 40 秒才能完成。
+
+加入任何的肉类都会变成肉丸子或是其他的成品，加入曼德拉草后会得到曼德拉草汤，加入火龙果则会变成火龙果派。</string>
+		<key>example</key>
+		<array>
+			<string>Butterfly_Wings,Mushrooms02,Twigs,Twigs</string>
+			<string>Butterfly_Wings,Butterfly_Wings,Butterfly_Wings,Carrots</string>
+			<string>Butterfly_Wings,Carrots,Berry,Berry</string>
+			<string>Butterfly_Wings,Carrots,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>butterflymuffin</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -284,6 +348,25 @@
 		<string>水果x3.0</string>
 		<key>limit</key>
 		<string>不能放肉类,蔬菜</string>
+		<key>desc</key>
+		<string>水果拼盘是将水果类食物物品在烹饪锅中烹饪得到的， 水果组合值需要大于2.5， 火龙果不行，放入它会做出火龙果派。它的烹饪时间是10秒。
+
+加入2个或更多的榴莲将会做出怪物千层派。加入肉类和蔬菜类将各自会导致生成肉丸子或者蔬菜杂烩。
+
+如果没放入树枝，水果拼盘的菜谱可能会做出果酱泥。
+
+</string>
+		<key>example</key>
+		<array>
+			<string>Durians,Pomegranates,Berry,Cave_Bananas</string>
+			<string>Durians,Pomegranates,Pomegranates,Berry</string>
+			<string>Durians,Pomegranates,Berry,Berry</string>
+			<string>Cave_Bananas,Cave_Bananas,Cave_Bananas,Twigs</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>fruitmedley</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -304,6 +387,21 @@
 		<string>肉类x0.5,蜂蜜x1</string>
 		<key>limit</key>
 		<string>少于2.0的肉类,不能放树枝</string>
+		<key>desc</key>
+		<string>蜂蜜肉块可以由肉在肉类系数 &lt; 2.0 的情况下搭配蜂蜜在烹饪锅中可以烹煮来的肉类食物，需要40秒才能煮好。
+在里面加超过1个怪物肉会变成怪物千层派、加入树枝会变成烤肉串（１个）或是失败料理（1个以上）、如果加入的肉类系数 &gt;= 2.0 时会变成蜂蜜火腿。</string>
+		<key>example</key>
+		<array>
+			<string>Morsels,Honey,Berry,Berry</string>
+			<string>Monster_Meats,Honey,Honey,Berry</string>
+			<string>Morsels,Honey,Honey,Honey</string>
+			<string>Frog_Leg,Frog_Leg,Frog_Leg,Honey</string>
+			<string>Morsels,Honey,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>honeynuggets</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -324,6 +422,22 @@
 		<string>鸡腿x2,肉类x0.5,蔬菜或水果x0.5</string>
 		<key>limit</key>
 		<string>无</string>
+		<key>desc</key>
+		<string>火鸡大餐是一种肉类食物，由在烹饪锅中加入 2 个生鸡腿、0.5 个肉和 1 个水果或是蔬菜下去烹煮 60 秒而成。
+
+加入曼德拉草有机会变成曼德拉草汤。加入 2 个怪物肉有可能会变成怪物千层派。
+
+在这里非常建议将 2 个生鸡腿做成火鸡大餐而不是生吃，因为它能回复的生命值和饱食度通常都比原料的总和还要多。</string>
+		<key>example</key>
+		<array>
+			<string>Drumstick,Drumstick,Monsrer_Meats,Berry</string>
+			<string>Drumstick,Drumstick,Morsels,Mushrooms02</string>
+			<string>Drumstick,Drumstick,Normal_Meats,Carrots</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>turkeydinner</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -344,6 +458,25 @@
 		<string>肉类x1.5,蛋类x2</string>
 		<key>limit</key>
 		<string>不能放蔬菜</string>
+		<key>desc</key>
+		<string>培根蛋 (Bacon and Eggs)是透过烹饪锅烹调的肉类食物，烹调方法是把1个高脚鸟蛋或两个普通的蛋加上若干量的肉类，肉值必须大于等于1.5而且不能含有蔬菜，烹调时间大约需要40秒。
+
+需要特别注意的是，若是烹饪材料中有两个以上的怪物肉，有50%机率把培根蛋变为怪物千层面，在材料中加入树枝可以避免此情况发生。
+
+一个快速获得培根蛋材料的方法是找出高脚鸟巢，偷取高脚鸟蛋并杀死高脚鸟，这样能获得两份大肉和高脚鸟蛋，再加上树枝做填料即可。</string>
+		<key>example</key>
+		<array>
+			<string>Tallbird_Eggs,Normal_Meats,Morsels,Twigs</string>
+			<string>Tallbird_Eggs,Monster_Meats,Monster_Meats,Twigs</string>
+			<string>Small_Eggs,Small_Eggs,Monster_Meats,Morsels</string>
+			<string>Small_Eggs,Small_Eggs,Monster_Meats,Frog_Leg</string>
+			<string>Small_Eggs,Small_Eggs,Monster_Meats,Normal_Meats</string>
+			<string>Small_Eggs,Small_Eggs,Normal_Meats,Morsels</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>baconeggs</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -364,6 +497,27 @@
 		<string>肉类x3.0</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>炖肉汤是以烹饪锅制成的肉类食物物品。 放入肉类系数3点或以上的物品可煮成。它需要15秒的时间煮完。
+
+加入树枝、曼德拉草、高脚鸟蛋、糖精或是多个怪物肉会煮出以下料理：烤肉串、曼德拉草汤、培根蛋、蜂蜜火腿或怪物千层派。 由于需要相当高的肉类系数以及不能放多个怪物肉，至少要使用一块大肉。
+
+炖肉汤能恢复的饥饿度比单独吃掉食材来的高。它能完全恢复大部分角色的饥饿度(除了沃尔夫冈、韦伯、升级的WX-78、沃利)，因此它相当适合在快要饿死的时候吃，像是刚睡醒。
+
+炖肉汤是游戏中恢复最高饥饿度的食物之一，和曼德拉草汤一样。</string>
+		<key>example</key>
+		<array>
+			<string>Normal_Meats,Normal_Meats,Normal_Meats,Normal_Meats</string>
+			<string>Normal_Meats,Monster_Meats,Morsels,Morsels</string>
+			<string>Normal_Meats,Normal_Meats,Frog_Leg,Frog_Leg</string>
+			<string>Normal_Meats,Monster_Meats,Monster_Meats,Small_Eggs</string>
+			<string>Normal_Meats,Normal_Meats,Normal_Meats,Mushrooms02</string>
+			<string>Normal_Meats,Normal_Meats,Monster_Meats,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>bonestew</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -384,6 +538,22 @@
 		<string>茄子x1,蔬菜x0.5</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>酿茄子是一种蔬菜类食物，由在烹饪锅中加入至少 1 个茄子和 1 个蔬菜下去烹煮 40 秒而成。
+
+加入曼德拉草有机会变成曼德拉草汤。加入 2 个怪物食物有可能会变成怪物千层派。除非同时加入肉类否则加入 1 个蝴蝶翅膀或是火龙果就会机会分别变成奶油松饼或是火龙果派。加入青蛙腿有可能会变成蛙腿三明治。
+
+酿茄子比起生的茄子来说能回复的生命较少，但提供了 50% 额外的饱食度并且可以保存更久。</string>
+		<key>example</key>
+		<array>
+			<string>Eggplants,Carrots,Berry,Berry</string>
+			<string>Eggplants,Mushrooms02,Twigs,Twigs</string>
+			<string>Eggplants,Carrots,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>stuffedeggplant</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -404,6 +574,21 @@
 		<string>肉类x0.5</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>肉丸子是一种用肉类系数 &lt; 3.0 的任意肉类在烹饪锅里烹煮 15 秒后所能得到的食物。
+
+加入 2 个以上的怪物食物有可能会变成怪物千层派，除非同时也加入树枝，这样则会变成失败料理。加入蜂蜜会变成蜂蜜肉块或是蜂蜜火腿，加入曼德拉草有机会变成曼德拉草汤。加入肉类系数 3.0 以上的肉类时会变成炖肉汤。</string>
+		<key>example</key>
+		<array>
+			<string>Monster_Meats,Ice,Ice,Ice</string>
+			<string>Monster_Meats,Watermelons,Berry</string>
+			<string>Morsels,Berry,Berry,Carrots</string>
+			<string>Normal_Meats,Berry,Berry,Berry</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>meatballs</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -424,6 +609,20 @@
 		<string>肉类x0.5,树枝x1</string>
 		<key>limit</key>
 		<string>最多树枝x1,最多怪物肉x1</string>
+		<key>desc</key>
+		<string>烤肉串是一种用烹饪锅烹制的肉类食物，所需材料为至少1块肉和1根树枝，烹饪时间为40秒。添加超过1个的怪物食物或树枝会导致最终成品变为失败料理，而添加任何鱼类则会导致成品变为鱼排。</string>
+		<key>example</key>
+		<array>
+			<string>Monster_Meats,Twigs,Berry,Berry</string>
+			<string>Morsels,Twigs,Berry,Berry</string>
+			<string>Morsels,Twigs,Honey,Honey</string>
+			<string>Morsels,Twigs,Ice,Ice</string>
+			<string>Small_Eggs,Monster_Meats,Berry,Berry</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>kabobs</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -444,6 +643,20 @@
 		<string>水果x0.5</string>
 		<key>limit</key>
 		<string>不能放怪物肉,蔬菜,树枝</string>
+		<key>desc</key>
+		<string>果酱泥是一种水果类食物物品，由在烹饪锅中将 4 个都填入火龙果（会变成火龙果派）之外的水果类食物烹制 10 秒而成。当水果系数 &gt;= 3 时有50%的机会得到水果拼盘。
+不可以加入肉类、蔬菜或是树枝，否则会变成肉丸子、蔬菜杂烩、失败料理（水果系数 &lt; 3）或是水果拼盘（水果系数 &gt;= 3）。</string>
+		<key>example</key>
+		<array>
+			<string>Berry,Berry,Berry,Berry</string>
+			<string>Durians,Berry,Berry,Berry</string>
+			<string>All_eggs,All_eggs,Berry,Berry</string>
+			<string>Berry,Ice,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>jammypreserves</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -464,6 +677,23 @@
 		<string>蔬菜x0.5</string>
 		<key>limit</key>
 		<string>不能放肉类,树枝</string>
+		<key>desc</key>
+		<string>蔬菜杂烩是一种蔬菜类的食物物品，在烹饪锅中烹制，制作时间为20秒。
+
+加入1只曼德拉草会变成曼德拉草汤；加入1个火龙果会变成火龙果派；加入1只蝴蝶翅膀会变成奶油松饼；加入2个或以上的怪物食物会变成怪物千层派；加入1个茄子会变成酿茄子。
+
+烤熟以上食材食用几乎永远比加入烹饪锅中烹饪要来的划算，除非玩家想要获得额外的理智值加成、使食物保鲜、或者使毒蘑菇派上用场。</string>
+		<key>example</key>
+		<array>
+			<string>Mushrooms02,Mushrooms02,Mushrooms02,Mushrooms02</string>
+			<string>Mushrooms02,Mushrooms02,Berry,Berry</string>
+			<string>Carrots,Berry,Berry,Berry</string>
+			<string>Mushrooms02,Ice,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>ratatouille</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -484,6 +714,24 @@
 		<string>南瓜x1,蜂蜜x2</string>
 		<key>limit</key>
 		<string>无</string>
+		<key>desc</key>
+		<string>南瓜饼干是以烹饪锅制作的食物。它需要1个南瓜和2个蜂蜜(或蜂巢)， 并且需花40秒烹饪。
+
+加入3个蜂蜜可能导致做出太妃糖。 放入1个曼德拉草可能做出曼德拉草汤。
+
+南瓜饼乾和太妃糖恢复同样的Sanity ，但不减少 HealthMeter。 因此南瓜饼干更适合使用，但太妃糖更简单易得。南瓜饼干腐坏得比太妃糖快，但可以恢复更多的Hunger。</string>
+		<key>example</key>
+		<array>
+			<string>Pumpkins,Sweetener,Sweetener,Monster_Meats</string>
+			<string>Pumpkins,Sweetener,Sweetener,Berry</string>
+			<string>Pumpkins,Sweetener,Sweetener,Twigs</string>
+			<string>Pumpkins,Sweetener,Sweetener,Sweetener</string>
+			<string>Pumpkins,Sweetener,Sweetener,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>pumpkincookie</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -504,6 +752,23 @@
 		<string>蜂蜜x3</string>
 		<key>limit</key>
 		<string>不能放肉类</string>
+		<key>desc</key>
+		<string>太妃糖是烹饪锅制作出的食物。制作它需要3份蜂蜜 (或者蜂巢)，并且需要花费40秒来烹饪。
+
+加入肉类会导致做出蜂蜜炸鸡块，除非用了3个蜂巢，后者会做出肉丸。 加入1个南瓜可能会做出南瓜曲奇。
+
+太妃糖可以恢复15点Sanity，虽然会损失3点HealthMeter，且回复量没有西瓜冰多，但蜂蜜可以长时间保存的特点使得烹饪大量太妃糖成为一种紧急情况下大量回复理智的备选方案。</string>
+		<key>example</key>
+		<array>
+			<string>Sweetener,Sweetener,Sweetener,Sweetener</string>
+			<string>Sweetener,Sweetener,Sweetener,Berry</string>
+			<string>Sweetener,Sweetener,Sweetener,Twigs</string>
+			<string>Sweetener,Sweetener,Sweetener,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>taffy</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -524,6 +789,24 @@
 		<string>怪物肉x2</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
+		<key>desc</key>
+		<string>怪物千层面(Monster Lasagna)是透过烹饪锅烹调的肉类食物，材料必须包含两个以上怪物食材，例如怪物肉、怪物肉排、怪物肉干以及榴莲，烹调时间为10秒。
+
+若是在材料中添加树枝会做出失败料理，除非其他材料是高脚鸟蛋、鱼或鳗鱼，那会做出培根蛋或是鱼排。
+
+如同一般的怪物食物，怪物千层面会补充饱食度，但是减少生命和理智；韦伯(Webber)食用怪物千层面时不会受到负面效果影响。</string>
+		<key>example</key>
+		<array>
+			<string>Monster_Meats,Monster_Meats,Monster_Meats,Monster_Meats</string>
+			<string>Monster_Meats,Monster_Meats,Berry,Berry</string>
+			<string>Monster_Meats,Durians,Berry,Berry</string>
+			<string>Monster_Meats,Durians,Berry,Morsels</string>
+			<string>Durians,Durians,Berry,Berry</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>monsterlasagna</string>
 	</dict>
 </array>
 </plist>

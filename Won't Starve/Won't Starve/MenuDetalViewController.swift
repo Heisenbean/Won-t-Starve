@@ -24,6 +24,9 @@ class MenuDetalViewController: UIViewController {
 
     @IBOutlet weak var tableview: UITableView!
     
+    @IBOutlet weak var exampleTopConst: NSLayoutConstraint!
+    
+
     var datas = [String:AnyObject]()
     
     // MARK: Life Cycle
@@ -44,8 +47,16 @@ class MenuDetalViewController: UIViewController {
         limitNum.text = datas["max"] as? String
         limitNum.text = datas["max"] as? String
         generateCode.text = "\"" + (datas["code"] as! String) + "\""
+        
     }
 
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        if detaliLabel.frame.height > 274 {
+            exampleTopConst.constant += detaliLabel.frame.height - 274
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

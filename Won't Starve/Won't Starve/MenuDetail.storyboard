@@ -22,11 +22,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="RTy-WV-hQD">
-                                <rect key="frame" x="10" y="84" width="200" height="230"/>
-                                <string key="text">波兰饺子是以烹饪锅制成的肉类食物物品，烹饪它需要1个肉类，1个高脚鸟蛋或者蛋， 和1个蔬菜，它需要20秒来烹饪。
-加入2个怪兽肉会​​做出怪物千层派，放入树枝会导致做出肉串。
+                                <rect key="frame" x="10" y="84" width="200" height="258"/>
+                                <string key="text">蜂蜜火腿可以由肉在肉类系数大于等于2.0的情况下搭配蜂蜜在烹饪锅中可以烹煮来的肉类食物，需要40秒才能煮好。1个蜂蜜火腿可以就提供玩家角色30生命（相当于使用１个蜂蜜药膏）和饥饿值。
 
-波兰饺子具有烹饪食物中除了粉蛋糕外、和培根蛋同样拥有最长的保质期（20天）和肉食中除去鹿角怪眼球最高的回复量（可回复40生命值），这使得使用薇格弗德的玩家可以将波兰饺子作为重要的回血手段之一。同时利用鸟笼能够将大量怪兽肉转化成蛋的能力，可以快速消耗所得到的怪兽肉。</string>
+在里面加超过1个怪物肉会变成怪物千层派、加入树枝会变成烤肉串（１个）或是失败料理（1个以上）、加入高脚鸟蛋则会变成培根蛋。
+
+在《海难》资料片中很多的鱼类食物也拥有肉类系数，像是热带鱼。此外小鱼肉和热带鱼等都可以晒干成小肉干，这让蜂蜜火腿的制作变得像对容易许多。但是如果鱼类系数超过 1 的话就有可能做成海鲜秋葵汤。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -221,40 +222,24 @@
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inventory_slot_background" translatesAutoresizingMaskIntoConstraints="NO" id="16f-c4-Ajp">
                                                     <rect key="frame" x="72" y="7" width="64" height="64"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="64" id="HMS-2w-mnE"/>
-                                                        <constraint firstAttribute="height" constant="64" id="b7f-Dd-qPA"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Small_Eggs" translatesAutoresizingMaskIntoConstraints="NO" id="P8N-Df-kUR">
                                                     <rect key="frame" x="72" y="7" width="64" height="64"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inventory_slot_background" translatesAutoresizingMaskIntoConstraints="NO" id="tvd-F0-DHr">
                                                     <rect key="frame" x="140" y="7" width="64" height="64"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="64" id="Kry-PD-Zvb"/>
-                                                        <constraint firstAttribute="width" constant="64" id="dwj-gt-wmo"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Small_Eggs" translatesAutoresizingMaskIntoConstraints="NO" id="fK9-gq-EUb">
                                                     <rect key="frame" x="140" y="7" width="64" height="64"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inventory_slot_background" translatesAutoresizingMaskIntoConstraints="NO" id="e5O-r7-Wlb">
                                                     <rect key="frame" x="208" y="7" width="64" height="64"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="64" id="amc-Gy-O3O"/>
-                                                        <constraint firstAttribute="width" constant="64" id="dNJ-gi-cQH"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mushrooms02" translatesAutoresizingMaskIntoConstraints="NO" id="l5J-cY-gWg">
                                                     <rect key="frame" x="208" y="7" width="64" height="64"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Inventory_slot_background" translatesAutoresizingMaskIntoConstraints="NO" id="Nxe-eA-sR9">
                                                     <rect key="frame" x="307" y="7" width="64" height="64"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="64" id="5hP-3o-cIv"/>
-                                                        <constraint firstAttribute="height" constant="64" id="mDF-Xh-uFB"/>
-                                                    </constraints>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pierogi" translatesAutoresizingMaskIntoConstraints="NO" id="3R0-BD-qMa">
                                                     <rect key="frame" x="307" y="7" width="64" height="64"/>
@@ -267,9 +252,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="Nxe-eA-sR9" firstAttribute="height" secondItem="e5O-r7-Wlb" secondAttribute="height" id="33N-1p-sL1"/>
+                                                <constraint firstItem="Nxe-eA-sR9" firstAttribute="width" secondItem="e5O-r7-Wlb" secondAttribute="width" id="4er-k4-2es"/>
                                                 <constraint firstItem="Nxe-eA-sR9" firstAttribute="leading" secondItem="1X0-B5-oLe" secondAttribute="trailing" constant="6" id="BQm-pN-RfA"/>
                                                 <constraint firstItem="w4J-XD-fVb" firstAttribute="bottom" secondItem="B6X-X8-MCm" secondAttribute="bottom" id="CFX-wA-dLI"/>
                                                 <constraint firstAttribute="trailing" secondItem="3R0-BD-qMa" secondAttribute="trailing" constant="4" id="CII-FI-BmY"/>
+                                                <constraint firstItem="16f-c4-Ajp" firstAttribute="height" secondItem="B6X-X8-MCm" secondAttribute="height" id="CVO-6u-cnP"/>
                                                 <constraint firstItem="w4J-XD-fVb" firstAttribute="trailing" secondItem="B6X-X8-MCm" secondAttribute="trailing" id="D25-SZ-U9x"/>
                                                 <constraint firstItem="P8N-Df-kUR" firstAttribute="top" secondItem="16f-c4-Ajp" secondAttribute="top" id="DlR-nj-2uK"/>
                                                 <constraint firstItem="3R0-BD-qMa" firstAttribute="top" secondItem="Nxe-eA-sR9" secondAttribute="top" id="HSS-cV-dQ5"/>
@@ -278,6 +266,8 @@
                                                 <constraint firstItem="P8N-Df-kUR" firstAttribute="leading" secondItem="16f-c4-Ajp" secondAttribute="leading" id="IWi-gy-JbM"/>
                                                 <constraint firstItem="fK9-gq-EUb" firstAttribute="leading" secondItem="tvd-F0-DHr" secondAttribute="leading" id="Jk4-d8-7gX"/>
                                                 <constraint firstItem="w4J-XD-fVb" firstAttribute="leading" secondItem="B6X-X8-MCm" secondAttribute="leading" id="MMs-8P-8Z9"/>
+                                                <constraint firstItem="e5O-r7-Wlb" firstAttribute="width" secondItem="tvd-F0-DHr" secondAttribute="width" id="MyI-n2-NxQ"/>
+                                                <constraint firstItem="tvd-F0-DHr" firstAttribute="width" secondItem="16f-c4-Ajp" secondAttribute="width" id="SeX-Rg-21l"/>
                                                 <constraint firstItem="fK9-gq-EUb" firstAttribute="leading" secondItem="16f-c4-Ajp" secondAttribute="trailing" constant="4" id="TiP-Yb-y8U"/>
                                                 <constraint firstItem="P8N-Df-kUR" firstAttribute="trailing" secondItem="16f-c4-Ajp" secondAttribute="trailing" id="UUc-wW-eY2"/>
                                                 <constraint firstItem="l5J-cY-gWg" firstAttribute="top" secondItem="e5O-r7-Wlb" secondAttribute="top" id="XBx-gU-vwg"/>
@@ -286,11 +276,14 @@
                                                 <constraint firstItem="l5J-cY-gWg" firstAttribute="leading" secondItem="tvd-F0-DHr" secondAttribute="trailing" constant="4" id="aah-6U-Zme"/>
                                                 <constraint firstItem="3R0-BD-qMa" firstAttribute="leading" secondItem="Nxe-eA-sR9" secondAttribute="leading" id="c8j-K1-tph"/>
                                                 <constraint firstItem="B6X-X8-MCm" firstAttribute="centerY" secondItem="m1g-S2-nKA" secondAttribute="centerY" id="ccb-SX-Gwn"/>
+                                                <constraint firstItem="16f-c4-Ajp" firstAttribute="width" secondItem="B6X-X8-MCm" secondAttribute="width" id="eww-XM-wLi"/>
                                                 <constraint firstItem="3R0-BD-qMa" firstAttribute="centerY" secondItem="m1g-S2-nKA" secondAttribute="centerY" id="fxY-2g-8z6"/>
                                                 <constraint firstItem="fK9-gq-EUb" firstAttribute="centerY" secondItem="16f-c4-Ajp" secondAttribute="centerY" id="gid-u1-Jgb"/>
                                                 <constraint firstItem="3R0-BD-qMa" firstAttribute="bottom" secondItem="Nxe-eA-sR9" secondAttribute="bottom" id="igt-st-8cG"/>
+                                                <constraint firstItem="tvd-F0-DHr" firstAttribute="height" secondItem="16f-c4-Ajp" secondAttribute="height" id="jan-6X-LDw"/>
                                                 <constraint firstItem="P8N-Df-kUR" firstAttribute="leading" secondItem="w4J-XD-fVb" secondAttribute="trailing" constant="4" id="jcT-fe-577"/>
                                                 <constraint firstItem="l5J-cY-gWg" firstAttribute="centerY" secondItem="tvd-F0-DHr" secondAttribute="centerY" id="jvb-NT-3bM"/>
+                                                <constraint firstItem="e5O-r7-Wlb" firstAttribute="height" secondItem="tvd-F0-DHr" secondAttribute="height" id="pAQ-xY-LhF"/>
                                                 <constraint firstItem="l5J-cY-gWg" firstAttribute="leading" secondItem="e5O-r7-Wlb" secondAttribute="leading" id="s6h-ol-siv"/>
                                                 <constraint firstItem="l5J-cY-gWg" firstAttribute="trailing" secondItem="e5O-r7-Wlb" secondAttribute="trailing" id="sqv-ug-Zsu"/>
                                                 <constraint firstItem="B6X-X8-MCm" firstAttribute="leading" secondItem="m1g-S2-nKA" secondAttribute="leading" constant="4" id="tHf-fI-1WP"/>
@@ -340,6 +333,7 @@
                     <connections>
                         <outlet property="badTimeNum" destination="YQa-CK-uMh" id="btt-QH-lcM"/>
                         <outlet property="detaliLabel" destination="RTy-WV-hQD" id="e6F-zy-JrP"/>
+                        <outlet property="exampleTopConst" destination="suJ-hC-gQg" id="7cK-dI-lZj"/>
                         <outlet property="foodIcon" destination="Q1Y-Nz-fdy" id="sog-jZ-7Ho"/>
                         <outlet property="generateCode" destination="C92-sv-Wmw" id="Ln8-SB-HC9"/>
                         <outlet property="healthNum" destination="N7h-Ja-BKH" id="JOm-b1-nPG"/>
