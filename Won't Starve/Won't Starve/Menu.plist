@@ -93,6 +93,23 @@
 		<string>火龙果x1</string>
 		<key>limit</key>
 		<string>不能放肉类</string>
+		<key>desc</key>
+		<string>火龙果派是一种水果类食物物品，由在烹饪锅中加入至少一个火龙果煮成 40 秒所成的。
+
+加入任何的肉类都会变成肉丸子或是其他的成品，加入曼德拉草后会得到曼德拉草汤，加入 3 个蜂蜜或蜂巢会得到太妃糖，加入茄子则会得到酿茄子。在《海难》资料片中，加入香蕉、冰块和树枝会得到香蕉冰棒。
+
+火龙果派所能回复的生命和饱食度远超过其原料所能带来的，作成火龙果派的效果远远高于直接吃掉火龙果，毕竟除了火龙果之外，玩家只需要在烹饪锅中加入树枝即可作成火龙果派。</string>
+		<key>example</key>
+		<array>
+			<string>Dragon_Fruits,Twigs,Twigs,Twigs</string>
+			<string>Dragon_Fruits,Ice,Ice,Ice</string>
+			<string>Dragon_Fruits,Berry,Berry,Berry</string>
+			<string>Dragon_Fruits,Berry,Berry,Carrots</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>dragonpie</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -113,11 +130,24 @@
 		<string>蛋类x1,肉类x0.5,蔬菜x0.5</string>
 		<key>limit</key>
 		<string>不能放树枝</string>
-		<key>detail</key>
+		<key>desc</key>
 		<string>波兰饺子是以烹饪锅制成的肉类食物物品，烹饪它需要1个肉类，1个高脚鸟蛋或者蛋， 和1个蔬菜，它需要20秒来烹饪。
 加入2个怪兽肉会​​做出怪物千层派，放入树枝会导致做出肉串。
 
 波兰饺子具有烹饪食物中除了粉蛋糕外、和培根蛋同样拥有最长的保质期（20天）和肉食中除去鹿角怪眼球最高的回复量（可回复40生命值），这使得使用薇格弗德的玩家可以将波兰饺子作为重要的回血手段之一。同时利用鸟笼能够将大量怪兽肉转化成蛋的能力，可以快速消耗所得到的怪兽肉。</string>
+		<key>example</key>
+		<array>
+			<string>Monster_Meats,Small_Eggs,Small_Eggs,Mushrooms02</string>
+			<string>Morsels,Small_Eggs,Carrots,Honey</string>
+			<string>Frog_Leg,Small_Eggs,Mushrooms02,Berry</string>
+			<string>Normal_Meats,Morsels,Tallbird_Eggs,Carrots</string>
+			<string>Morsels,Tallbird_Eggs,Carrots,Carrots</string>
+			<string>Monster_Meats,Small_Eggs,Mushrooms02,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>perogies</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -138,6 +168,22 @@
 		<string>鱼类x0.5,树枝x1</string>
 		<key>limit</key>
 		<string>树枝最多x1</string>
+		<key>desc</key>
+		<string>鱼排是一种肉类食物，将至少1个鱼或者鳗鱼和最多1个树枝通过烹饪锅烹饪得到，烹饪它需要花费40秒。
+
+放入3个树枝将导致做出失败料理。加入任何玉米可能做出鱼塔可。加入2个怪兽肉是可行的，因为怪物千层面的菜谱里不能放入树枝。 （译注：这个现像很有趣，可能是BUG，因为3个怪兽肉+树枝会导致料理失败）
+
+鱼排的突出优点是不使用任何昂贵资源就能恢复大量的血。但它的保质期相对不长，且其原料鱼的保质期更短，可以加入新鲜的其他材料增加新鲜度。</string>
+		<key>example</key>
+		<array>
+			<string>Fishes,Twigs,Monster_Meats,Monster_Meats</string>
+			<string>Fishes,Twigs,Mushrooms02,Berry</string>
+			<string>Fishes,Fishes,Twigs,Frog_Leg</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>fishsticks</string>
 	</dict>
 	<dict>
 		<key>name</key>
