@@ -76,6 +76,44 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>花瓣沙拉</string>
+		<key>icon</key>
+		<string>Cactus_Flower</string>
+		<key>health</key>
+		<string>+40</string>
+		<key>hungry</key>
+		<string>+12.5</string>
+		<key>sanity</key>
+		<string>+5</string>
+		<key>badTime</key>
+		<string>6</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>仙人掌花x1,蔬菜x2</string>
+		<key>limit</key>
+		<string>不能放水果,肉类,蛋类,蜂蜜,树枝</string>
+		<key>desc</key>
+		<string>花瓣沙拉是一种在《巨人王朝》中加入的蔬菜类食物，由在烹饪锅中加入至少 1 个仙人掌花和 1.5 以上的蔬菜下去烹煮 10 秒而成。
+
+加入曼德拉草有机会变成曼德拉草汤。
+
+花瓣沙拉中不能加入任何的水果、肉类、蛋类、甜味剂或是树枝，所能使用的填充物只能为蔬菜、冰、蝴蝶翅膀或是白桦坚果。</string>
+		<key>example</key>
+		<array>
+			<string>Cactus_Flower,Cactus_Flower,Cacti_Flesh,Cacti_Flesh</string>
+			<string>Cactus_Flower,Mushrooms02,Mushrooms02,Mushrooms02</string>
+			<string>Cactus_Flower,Cactus_Flower,Corns,Eggplants</string>
+			<string>Cactus_Flower,Cactus_Flower,Pumpkins,Carrots</string>
+			<string>Cactus_Flower,Cactus_Flower,Cacti_Flesh,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>flowersalad</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>火龙果派</string>
 		<key>icon</key>
 		<string>Dragonpie.png</string>
@@ -184,6 +222,42 @@
 		<string>40</string>
 		<key>code</key>
 		<string>fishsticks</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>综合坚果</string>
+		<key>icon</key>
+		<string>Trail_Mix</string>
+		<key>health</key>
+		<string>+30</string>
+		<key>hungry</key>
+		<string>+12.5</string>
+		<key>sanity</key>
+		<string>+5</string>
+		<key>badTime</key>
+		<string>15</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>烤坚果x1,浆果x1,水果x0.5</string>
+		<key>limit</key>
+		<string>不能放蔬菜,肉类,蛋类,蜂蜜</string>
+		<key>desc</key>
+		<string>综合坚果 是出现在 巨人王朝dlc中的一种水果食物。可以用一个烤过的白桦坚果，一个浆果（烤过或没烤过皆可），和任何的水果类食物（也可以放更多的浆果）利用烹饪锅烹调而得。
+
+综合坚果是最便宜的补血菜肴之一，比起单吃每一个食材所回复的还多。也可以回复比单吃每一个食材（在食材不包含西瓜的情况下）更多的理智。
+
+然而，综合坚果所回复的饱食度小于单吃每一个食材的总和，是一个回复饱食度较无效率的方法。</string>
+		<key>example</key>
+		<array>
+			<string>Roasted_Birchnut,Berry,Berry,Berry</string>
+			<string>Roasted_Birchnut,Pomegranates,Berry,Twigs</string>
+			<string>Roasted_Birchnut,Berry,Berry,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>trailmix</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -331,6 +405,47 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>酪梨酱</string>
+		<key>icon</key>
+		<string>Guacamole</string>
+		<key>health</key>
+		<string>+20</string>
+		<key>hungry</key>
+		<string>+37.5</string>
+		<key>sanity</key>
+		<string>0</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>仙人掌肉x1,鼹鼠x1</string>
+		<key>limit</key>
+		<string>不能放肉类</string>
+		<key>desc</key>
+		<string>酪梨酱是一种在资料片《巨人王朝》中出现的肉类食物，只要在烹饪锅中加入至少 1 个鼹鼠和 1 个生的仙人掌肉即可取得。
+
+加入其他材料有可能取得：
+
+加入玉米和鱼得到鱼塔可
+加入 2 个生的鸡腿得到火鸡大餐
+加入系数为 1 的肉和蔬菜得到辣椒炖肉
+加入曼德拉草得到曼德拉草汤
+很多的组合个别材料饥饿值的总和都比煮好的酪梨酱还来的高，建议是利用树枝来当作填充物使得酪梨酱的利用价值变得更高。</string>
+		<key>example</key>
+		<array>
+			<string>Moleworm,Cacti_Flesh,Twigs,Twigs</string>
+			<string>Moleworm,Cacti_Flesh,Ice,Ice</string>
+			<string>Moleworm,Cacti_Flesh,Small_Eggs,Small_Eggs</string>
+			<string>Moleworm,Cacti_Flesh,Cacti_Flesh,Cacti_Flesh</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>butterflymuffin</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>水果拼盘	</string>
 		<key>icon</key>
 		<string>Fruit_Medley</string>
@@ -405,6 +520,43 @@
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>辣椒炖肉</string>
+		<key>icon</key>
+		<string>Spicy_Chili</string>
+		<key>health</key>
+		<string>+20</string>
+		<key>hungry</key>
+		<string>+37.5</string>
+		<key>sanity</key>
+		<string>0</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>蔬菜x1.5,肉类x1.5</string>
+		<key>limit</key>
+		<string>少于2.0的肉类,不能放树枝</string>
+		<key>desc</key>
+		<string>辣椒炖肉是在《巨人王朝》加入的肉类食物物品。透过加入超过 1.5 系数的肉类与超过 1.5 系数的蔬菜到烹饪锅烹煮而成，这个食谱不可以加入任何其他的填充物。
+
+加入 2 个以上的怪物食物会有 50% 的机会产生怪物千层面。
+
+当吃下去时，辣椒炖肉能提升玩家的体感温度 40 度并能持续 15 秒。</string>
+		<key>example</key>
+		<array>
+			<string>Drumsticks,Monster_Meats,Corns,Mushrooms02</string>
+			<string>Morsels,Normal_Meats,Carrots,Mushrooms02</string>
+			<string>Monster_Meats,Fishes,Lichen,Lichen</string>
+			<string>Monster_Meats,Frog_Leg,Carrots,Corns</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>hotchili</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>火鸡大餐</string>
 		<key>icon</key>
 		<string>Turkey_Dinner</string>
@@ -438,6 +590,45 @@
 		<string>40</string>
 		<key>code</key>
 		<string>turkeydinner</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>鳗鱼寿司</string>
+		<key>icon</key>
+		<string>Unagi</string>
+		<key>health</key>
+		<string>+20</string>
+		<key>hungry</key>
+		<string>+18.8</string>
+		<key>sanity</key>
+		<string>+5</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>鳗鱼x1,菌藻x1</string>
+		<key>limit</key>
+		<string>无</string>
+		<key>desc</key>
+		<string>鳗鱼寿司是一种肉类食物，由在烹饪锅中加入鳗鱼和菌藻烹煮 10 秒而成。
+
+鳗鱼寿司拥有在原游戏模式中最高的优先度（20）。这代表将鳗鱼和菌藻放入烹饪锅中总是能够得到鳗鱼寿司。
+
+它所能回复的饱食度比鳗鱼和菌藻加起来还少，但是能够回复 20 生命值和 5 点理智值，所以在生命危急时特别有用。但是它只能保存 10 天（加上菌藻容易腐坏的关系，能保存的时间往往低于 10 天），建议只有需要立即食用时才制作或是制作之后放入冰箱保存
+
+鳗鱼寿司没有填充物的限制，所以在遗迹中可以搭配所找到的任何可使用食材（蓝蘑菇、怪物肉甚至是树枝）来制作鳗鱼寿司，在情况危急的时候十分有帮助。</string>
+		<key>example</key>
+		<array>
+			<string>Eels,Lichen,Twigs,Twigs</string>
+			<string>Eels,Lichen,Fishes,Twigs</string>
+			<string>Eels,Lichen,Monster_Meats,Mushrooms02</string>
+			<string>Eels,Lichen,Monster_Meats,Monster_Meats</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>unagi</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -554,6 +745,43 @@
 		<string>40</string>
 		<key>code</key>
 		<string>stuffedeggplant</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>西瓜冰</string>
+		<key>icon</key>
+		<string>Melonsicle</string>
+		<key>health</key>
+		<string>+3</string>
+		<key>hungry</key>
+		<string>+12.5</string>
+		<key>sanity</key>
+		<string>+20</string>
+		<key>badTime</key>
+		<string>3</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>西瓜x1,冰x1,树枝x1</string>
+		<key>limit</key>
+		<string>不能放肉类,蔬菜,蛋类</string>
+		<key>desc</key>
+		<string>酿茄子是一种蔬菜类食物，由在烹饪锅中加入至少 1 个茄子和 1 个蔬菜下去烹煮 40 秒而成。
+
+加入曼德拉草有机会变成曼德拉草汤。加入 2 个怪物食物有可能会变成怪物千层派。除非同时加入肉类否则加入 1 个蝴蝶翅膀或是火龙果就会机会分别变成奶油松饼或是火龙果派。加入青蛙腿有可能会变成蛙腿三明治。
+
+酿茄子比起生的茄子来说能回复的生命较少，但提供了 50% 额外的饱食度并且可以保存更久。</string>
+		<key>example</key>
+		<array>
+			<string>Watermelons,Ice,Twigs,Twigs</string>
+			<string>Watermelons,Ice,Twigs,Ice</string>
+			<string>Watermelons,Ice,Twigs,Honey</string>
+			<string>Watermelons,Ice,Twigs,Berry</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>watermelonicle</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -732,6 +960,40 @@
 		<string>40</string>
 		<key>code</key>
 		<string>pumpkincookie</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>冰淇淋</string>
+		<key>icon</key>
+		<string>Ice_Cream</string>
+		<key>health</key>
+		<string>0</string>
+		<key>hungry</key>
+		<string>+25</string>
+		<key>sanity</key>
+		<string>+50</string>
+		<key>badTime</key>
+		<string>3</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>冰块x1,奶制品x1,蜂蜜x1</string>
+		<key>limit</key>
+		<string>不能放肉类,蔬菜,树枝,蛋类</string>
+		<key>desc</key>
+		<string>冰淇淋可以回复玩家 50 Sanity ，是所有食物中回复量最高的。除此之外，它能降低玩家 40 度的体感温度并持续 15 秒。这使得冰淇淋在夏天显得特别有价值，因为其白天的高温对玩家来说是很大的威胁。在跟蜻蜓龙激战后玩家也很适合透过吃冰淇淋还回复失去理智同时达到降温的效果。</string>
+		<key>example</key>
+		<array>
+			<string>Ice,Dairy_product,Honey,Dairy_product</string>
+			<string>Ice,Dairy_product,Honey,Honey</string>
+			<string>Ice,Dairy_product,Honey,Berry</string>
+			<string>Ice,Dairy_product,Honey,Cave_Bananas</string>
+			<string>Ice,Dairy_product,Honey,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>icecream</string>
 	</dict>
 	<dict>
 		<key>name</key>
