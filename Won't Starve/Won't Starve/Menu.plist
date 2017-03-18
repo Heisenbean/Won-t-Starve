@@ -1070,5 +1070,151 @@
 		<key>code</key>
 		<string>monsterlasagna</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>香蕉冻</string>
+		<key>icon</key>
+		<string>Banana_Pop</string>
+		<key>health</key>
+		<string>+12</string>
+		<key>hungry</key>
+		<string>+20</string>
+		<key>sanity</key>
+		<string>+33</string>
+		<key>badTime</key>
+		<string>3</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>香蕉x1,冰x1,树枝x1</string>
+		<key>limit</key>
+		<string>不能放肉</string>
+		<key>desc</key>
+		<string>Banana Pop is a new Crock Pot recipe introduced in the Shipwrecked DLC. It is made from uncooked Banana, Ice and Twigs, and cannot contain any kind of Meats. It is a great sanity food, as Ice can be plentiful from refining Hail during the Hurricane Season or using an Ice Maker 3000.
+
+Adding Wobster, Shark Fin, Jellyfish, Fishes or Meats will result in Lobster Bisque, Shark Fin Soup, Jelly-O Pop, Fishsticks and Kabobs respectively.
+
+It restores 20 Health, 12.5 Hunger and 33 Sanity and reduces body temperature for 10 seconds by 40 degrees.</string>
+		<key>example</key>
+		<array>
+			<string>Cave_Banana,Ice,Twigs,Twigs</string>
+			<string>Cave_Banana,Ice,Ice,Twigs</string>
+			<string>Cave_Banana,Ice,Ice,Eggs</string>
+			<string>Cave_Banana,Ice,Ice,Seaweed</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>bananapop</string>
+		<key>DLC</key>
+		<string>SW</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>浓汤</string>
+		<key>icon</key>
+		<string>Bisque</string>
+		<key>health</key>
+		<string>+60</string>
+		<key>hungry</key>
+		<string>+18.75</string>
+		<key>sanity</key>
+		<string>+5</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>20</string>
+		<key>need</key>
+		<string>帽贝x3,冰x1</string>
+		<key>limit</key>
+		<string>其他都不能放</string>
+		<key>desc</key>
+		<string>Bisque is a Crock Pot recipe introduced in the Shipwrecked DLC. It is made from 3 Limpets and 1 Ice.
+
+It restores 60 Health, making it one of the best and cheapest healing foods.</string>
+		<key>example</key>
+		<array>
+			<string>Limpets,Limpets,Limpets,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>bisque</string>
+		<key>DLC</key>
+		<string>SW</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>加州卷</string>
+		<key>icon</key>
+		<string>California_Roll</string>
+		<key>health</key>
+		<string>+20</string>
+		<key>hungry</key>
+		<string>+37.5</string>
+		<key>sanity</key>
+		<string>+10</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>海藻x2,鱼类x1</string>
+		<key>limit</key>
+		<string>无</string>
+		<key>desc</key>
+		<string>California Roll is a new Crock Pot recipe introduced in the Shipwrecked DLC. It is made from 1 units of Fishes, exactly 2 raw Seaweed, and up to 1 Filler. It restores 37.5 hunger, 10 sanity and 20 health.
+
+Using Shark Fin as a filler may yield Shark Fin Soup instead. Using a Wobster for the fish requirement then using Ice or Butter as a filler will yield Lobster Bisque and Lobster Dinner respectively.</string>
+		<key>example</key>
+		<array>
+			<string>Seaweed,Seaweed,Limpets,Limpets</string>
+			<string>Seaweed,Seaweed,Fishes,Twigs</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>californiaroll</string>
+		<key>DLC</key>
+		<string>SW</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>酸橘汁腌鱼</string>
+		<key>icon</key>
+		<string>Ceviche</string>
+		<key>health</key>
+		<string>+20</string>
+		<key>hungry</key>
+		<string>+25	</string>
+		<key>sanity</key>
+		<string>+5</string>
+		<key>badTime</key>
+		<string>10</string>
+		<key>time</key>
+		<string>10</string>
+		<key>need</key>
+		<string>鱼类x2,冰x1</string>
+		<key>limit</key>
+		<string>无</string>
+		<key>desc</key>
+		<string>Ceviche (Spanish pronunciation: seh/bee/tcheh) is a Crock Pot dish introduced in the Shipwrecked DLC. It is made from 2 Fishes, 1 Ice and a filler.
+
+Adding a Wobster will yield Lobster Bisque instead. Adding Jellyfish and Twigs may yield Jelly-O Pop instead. Adding Shark Fin may yield Shark Fin Soup instead. More than one Monster Foods can be added without the fear of making Monster Lasagna, as long as the requirements of this recipe are fulfilled, since this recipe has a higher priority than Monster Lasagna.
+
+It restores 20 Health, 25 Hunger and 5 Sanity, and reduces body temperature by 40 degrees for 10 seconds.</string>
+		<key>example</key>
+		<array>
+			<string>Tropical_Fish,Mussel,Limpets,Ice</string>
+			<string>Fishes,Fishes,Ice,Twigs</string>
+			<string>Fishes,Fishes,Ice,Ice</string>
+		</array>
+		<key>max</key>
+		<string>40</string>
+		<key>code</key>
+		<string>ceviche</string>
+		<key>DLC</key>
+		<string>SW</string>
+	</dict>
 </array>
 </plist>
