@@ -23,6 +23,8 @@ class MenuCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        limit.preferredMaxLayoutWidth = (UIScreen.main.bounds.size.width - 100) * 0.5 - 10
+        need.preferredMaxLayoutWidth = limit.preferredMaxLayoutWidth
     }
     
     var data = [String:AnyObject](){
@@ -39,10 +41,18 @@ class MenuCell: UITableViewCell {
         }
     }
 
+    func rowHeight(data:[String : AnyObject]) -> CGFloat{
+        self.data = data
+        layoutIfNeeded()
+        return max(self.limit.frame.maxY, self.need.frame.maxY) + 10
+    }
+
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
-
+    
+    
 }

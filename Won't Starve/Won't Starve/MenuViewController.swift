@@ -21,8 +21,11 @@ class MenuViewController: UIViewController {
         datas = NSArray(contentsOfFile: path!) as! [[String:AnyObject]]
         tableView.reloadData()
     }
+
     
 }
+
+
 
 extension MenuViewController: UITableViewDataSource,UITableViewDelegate{
     
@@ -36,11 +39,23 @@ extension MenuViewController: UITableViewDataSource,UITableViewDelegate{
         return cell
     }
     
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
+
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! MenuCell
+        let rowHeight = cell .rowHeight(data: datas[indexPath.row])
+        return rowHeight
+    }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let detailVc = UIStoryboard.init(name: "MenuDetail", bundle: nil).instantiateInitialViewController() as! MenuDetalViewController
         detailVc.datas = datas[indexPath.row]
         navigationController?.pushViewController(detailVc, animated: true)
     }
+    
     
 }
